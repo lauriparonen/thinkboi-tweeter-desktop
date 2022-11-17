@@ -12,3 +12,7 @@ all_keys = open("api_keys.txt", 'r').read().splitlines()
 to correspond to the new account name. 
 
 You can write the tweets to the text input, and you can choose to tweet it right away or save it into the drafts.txt file for further consideration. 
+
+REQUIREMENTS:
+PyQt5==5.15.7
+tweepy==4.12.0
